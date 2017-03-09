@@ -16,7 +16,7 @@ public class client {
 		System.out.println("Enter server ip: ");
 		serverIp = userInput.next();
 //		make a connection to the server
-		Socket connectToServerSocket = new Socket(serverIp,1000);
+		Socket connectToServerSocket  = new Socket(serverIp,1000);
 		
 //		enter the word to be searched
 		System.out.println("Enter word to find definition: ");
@@ -41,9 +41,7 @@ public class client {
 
 //		close the socket
 		connectToServerSocket.close();
-			
-			
-		
+				
 	}
 
 }
