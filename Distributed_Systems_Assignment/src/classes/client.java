@@ -14,7 +14,7 @@ public class client {
 		Scanner userInput = new Scanner(System.in);
 		
 //		get input from the command line
-		for(int i=0;i<=args.length;i++){
+		for(int i=1;i<=args.length;i++){
 //			capture the server ip address
 			serverIp = args[i];
 //			capture  the port address			
