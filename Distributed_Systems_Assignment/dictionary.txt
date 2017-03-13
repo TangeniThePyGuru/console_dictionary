@@ -1,2 +1,5 @@
-Noble, Unam Student
-Tangeni, Nust Student
+Noble; Unam Student
+Tangeni; Nust Student
+Bible; the Christian scriptures consisting of the 66 books of the Old and New Testaments.
+Human; relating to or characteristic of people or human beings.
+University; an educational institution designed for instruction, examination, or both, of students in many branches of advanced learning, conferring degrees in various faculties, and often embodying colleges and similar institutions
