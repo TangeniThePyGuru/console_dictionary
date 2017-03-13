@@ -9,23 +9,23 @@ public class client {
 	
 	public static void main( String args[]) throws UnknownHostException, IOException{
 //		Declaration
-		int port = 0;
+		String port = "";
 		String word = "",serverIp = "", temp = "";
 		Scanner userInput = new Scanner(System.in);
 		
 //		get input from the command line
-		for(int i=1;i<=args.length;i++){
+//		for(int i=0;i<=args.length;i++){
 //			capture the server ip address
-			serverIp = args[i];
+			serverIp = args[0];
 //			capture  the port address			
-			port = Integer.parseInt(args[i]);
+			port = (args[1]);
 //			capture the word to find definition
-			word = args[i];
-		}
+			word = args[2];
+//		}
 
 
 //		make a connection to the server
-		Socket connectToServerSocket  = new Socket(serverIp,port);
+		Socket connectToServerSocket  = new Socket(serverIp,Integer.parseInt(port));
 		
 		
 //		send the word to the server and search
