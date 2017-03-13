@@ -12,7 +12,7 @@ public class DBConnect {
 	
 	public DBConnect(){
 		try{
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.sun.java.util.jar.pack.Driver");
 			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/eng_dictionary","root","");
 			stmt = conn.createStatement();
 		}catch(Exception ex){
