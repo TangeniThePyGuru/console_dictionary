@@ -27,7 +27,7 @@ public class TextFile {
 //	    	 iterate through the file line by line
 	         while((line = bufferedReader.readLine()) != null) {
 //	        	 split line into two parts the word itself and the definition and store into an array
-	        	 String[] row = line.split(",");
+	        	 String[] row = line.split(";");
 //	        	 iterate through the array and compare the words in the file
 	        	 for(int i = 0; i<=0; i++){
 	        		 
@@ -57,6 +57,6 @@ public class TextFile {
 	             + fileName + "'");                 
 	     }
 //	     return definition if found
-	     return final_def;
+	     return"- "+final_def;
 	 }
 }
