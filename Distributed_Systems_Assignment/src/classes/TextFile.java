@@ -31,7 +31,7 @@ public class TextFile {
 //	        	 iterate through the array and compare the words in the file
 	        	 for(int i = 0; i<=0; i++){
 	        		 
-	        		 if (row[i].equals(word)){
+	        		 if (row[i].toUpperCase().equals(word.toUpperCase())){
 	        			 def = row[1];
 	        			 final_def = def;
 	        		 }
@@ -56,7 +56,7 @@ public class TextFile {
 	             "Error reading file '" 
 	             + fileName + "'");                 
 	     }
-	     
+//	     return definition if found
 	     return final_def;
 	 }
 }
